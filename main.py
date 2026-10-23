@@ -5,6 +5,7 @@ from HandTracker import HandTracker
 from VolumeControl import VolumeControl
 
 # Initialize Hand Tracker
+
 tracker = HandTracker(cam_index=1)  # Change cam_index if needed
 volume_control = VolumeControl()
 
